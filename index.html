@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samart Online Store</title>
+
+    <!-- Google font CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Style css and favicon -->
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="shortcut icon" href="assets/Samart mini logo.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="menu-hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="title">
+                <h1><a href="index.html">Samart</a></h1>
+            </div>
+            <div class="basket">
+                <i class="fa-solid fa-basket-shopping"></i>
+            </div>
+        </nav>
+
+        <div class="hero">
+            <img src="assets/banner.jpg" alt="banner">
+        </div>
+    </header>
+
+    <!-- Slider -->
+    <section class="slider">
+        <img src="assets/brogue.png" alt="brogue" class="active">
+        <img src="assets/lunettes de soleil Ray-Ban.jpg" alt="lunettes">
+        <img src="assets/montre.png" alt="montre">
+        <img src="assets/pull.png" alt="pull">
+        
+        <div class="previous-btn">
+            <i id="btn-1" class="fa-solid fa-circle-chevron-left"></i>
+        </div>
+        <div class="next-btn">
+            <i id="btn-2" class="fa-solid fa-circle-chevron-right"></i>
+        </div>
+
+        <div class="productDetails">
+            <span class="active">
+                <h2 class="productName">Brogue</h2>
+                <h3 class="productPrice">280GNF</h3>
+            </span>
+            <span>
+                <h2 class="productName">Lunette de soleil</h2>
+                <h3 class="productPrice">30GNF</h3>
+            </span>
+            <span>
+                <h2 class="productName">Montre</h2>
+                <h3 class="productPrice">80GNF</h3>
+            </span>
+            <span>
+                <h2 class="productName">Pull</h2>
+                <h3 class="productPrice">100GNF</h3>
+            </span>
+        </div>
+    </section>
+
+    <section class="mode">
+        <div class="sectionTitle">
+            <h1>Mode</h1>
+            <p>Les toutes dernières collections</p>
+        </div>
+        <div class="row">
+            <div class="mode-col">
+                <img src="assets/chemises.jpg" alt="chemises">
+                <h2>Chemises</h2>
+                <p>La solution idéale</p>
+            </div>
+            <div class="mode-col">
+                <img src="assets/pantalons.jpg" alt="pantalons">
+                <h2>Pantalons</h2>
+                <p>Qualité et Style</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="schedule">
+        <div class="sectionTitle">
+            <h2>Horaires</h2>
+            <p>Vivez l'expérience</p>
+        </div>
+        <p>
+            Lundi - Vendredi : 10h00 - 19h00 <br>
+            Samedi - Dimanche : 11h00 - 18h00
+        </p>
+        <img src="assets/horaires.jpg" alt="Heures d'ouverture">
+    </section>
+
+    <footer>
+        <div class="about">
+            <h1 class="title">Samart</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur <br>
+                adipisicing elit. Id accusantium <br>
+                est placeat cum quae!</p>
+        </div>
+        <div class="socialMedia">
+            <a href="https://facebook.com">
+                <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="https://twitter.com">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+        </div>
+        <div class="address">
+            <div class="phone">
+                <i class="fa-solid fa-phone"></i>
+                +224 000 00 00 00
+            </div>
+            <div class="place">
+                <i class="fa-solid fa-location-dot"></i>
+                ABC Road, XYZ building
+            </div>
+        </div>
+    </footer>
+    <script src="JS/script.js"></script>
+</body>
+</html>

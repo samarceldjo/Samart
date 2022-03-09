@@ -1,0 +1,191 @@
+:root {
+    --primary-color: #333;
+    --secondary-color: #CBD0D8;
+    --third-color: #424953;
+    --fourth-color: #e3e3e3;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    color: inherit;
+}
+body {
+    font-family: 'ubuntu', sans-serif;
+    color: var(--primary-color)
+}
+header {
+    width: 100%;
+}
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    color: var(--primary-color);
+}
+nav i.fa-solid {
+    font-size: 24px;
+    cursor: pointer;
+}
+.title {
+    font-weight: medium;
+    font-size: 24px;
+}
+.hero img {
+    width: 100%;
+}
+
+section {
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+.sectionTitle {
+    text-align: center;
+    margin: 24px auto;
+    font-weight: 400;
+}
+.sectionTitle h1 {
+    font-size: 36px;
+}
+.sectionTitle p {
+    font-family: 'Dancing script';
+    font-size: 24px;
+}
+/*  Slider  */
+.slider {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.slider img {
+    width: 225px;
+    height: 250px;
+    background-color: var(--secondary-color);
+    position: absolute;
+    top: 0;
+    border-radius: 8px;
+    display: none;
+    animation: smooth 1s;
+}
+.slider .active, .productDetails .active {
+    display: block;
+}
+.previous-btn, .next-btn {
+    font-size: 40px;
+    position: absolute;
+    top: 100px;
+    color: var(--secondary-color);
+}
+.previous-btn {
+    left: 24px;
+}
+.next-btn {
+    right: 24px;
+}
+.productDetails {
+    width: 225px;
+    margin-top: 250px;
+}
+.productDetails span {
+    text-align: center;
+    display: none;
+    animation: smooth 1s;
+}
+.productName {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 12px auto 8px;
+}
+.productPrice {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+@keyframes smooth {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/*  Mode    */
+.mode-col {
+    width: 100%;
+    margin-bottom: 36px;
+    text-align: center;
+}
+.mode-col img {
+    width: 100%;
+    border-radius: 8px;
+}
+.mode-col h2 {
+    margin: 16px auto 8px;
+}
+.mode-col p {
+    font-family: 'Dancing script';
+    font-size: 24px;
+}
+/*  Horaires    */
+.schedule {
+    text-align: center;
+}
+.schedule img {
+    width: 80%;
+    margin: 24px auto;
+    border-radius: 8px;
+}
+
+/*  Footer  */
+footer {
+    min-height: 150px;
+    background-color: var(--third-color);
+    text-align: center;
+    color: #e3e3e3;
+    padding: 24px 40px;
+    font-weight: 300;
+}
+footer > div {
+    margin-bottom: 16px;
+}
+a {
+    text-decoration: none;
+}
+.about p {
+    font-size: 16px;
+}
+footer .title, footer i {
+    color: tomato;
+}
+.socialMedia i.fa-brands {
+    font-size: 24px;
+    margin: 0 4px;
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.socialMedia i.fa-brands:hover {
+    background-color: var(--fourth-color);
+    color: var(--third-color);
+    transition: 0.5s;
+}
+.address {
+    font-family: 'Dancing script';
+    font-size: 14px;
+}
+.address div {
+    margin-bottom: 8px;
+}
+.address i.fa-solid {
+    margin-right: 8px;
+}
