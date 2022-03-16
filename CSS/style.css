@@ -37,6 +37,7 @@ nav i.fa-solid {
 .title {
     font-weight: medium;
     font-size: 24px;
+    font-family: 'Dancing Script';
 }
 .hero {
     max-height: 570px;
@@ -221,7 +222,7 @@ footer .title, footer i {
 }
 .socialMedia i.fa-brands {
     font-size: 24px;
-    margin: 0 4px;
+    margin: 8px;
     width: 40px;
     height: 40px;
     padding: 8px;
