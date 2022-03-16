@@ -114,6 +114,9 @@ section {
     display: grid;
     grid-template-columns: 50% 50%;
 }
+.peperomie {
+    grid-column: 1 / span 2;
+}
 .product-col {
     width: px;
     margin: 0 4px 24px;
@@ -124,7 +127,6 @@ section {
 }
 .product-col img {
     width: 100%;
-    height: 200px;
     background: var(--secondary-color);
     border-radius: 8px;
     border: 1px solid #42495321;
