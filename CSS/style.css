@@ -255,7 +255,7 @@ footer .title, footer i {
         width: 80%;
         margin-left: auto;
         margin-right: auto;
-    }
+    }/*
     .products .row {
         max-width: 1052px;
         margin: auto;
@@ -265,7 +265,7 @@ footer .title, footer i {
     }
     .product-col img {
         height: 250px;
-    }
+    }*/
 
     .mode .row {
         display: flex;
