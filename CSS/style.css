@@ -245,6 +245,21 @@ footer .title, footer i {
     margin-right: 8px;
 }
 
+/*========= Main of dashboard =========*/
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 16px;
+}
+main button {
+    padding: 8px 12px;
+    background-color: blue;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+}
 
 /*========= Desktrop frame =========*/
 @media (min-width: 1148px) {
